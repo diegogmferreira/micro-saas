@@ -7,8 +7,6 @@ const poppins = Poppins({
   subsets: ["latin"],
 });
 
-
-
 export const metadata: Metadata = {
   title: "Galdev CRM",
   description: "CRM para gerenciamento de clientes",

@@ -1,5 +1,11 @@
 import { handleAuth } from "@/app/actions/authenticate";
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+  description: 'Dashboard',
+}
 
 export default function Dashboard() {
   return (

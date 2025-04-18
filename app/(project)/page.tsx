@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Galdev CRM',
+  description: 'Landing page',
+}
+
 
 export default function Home() {
   return (
